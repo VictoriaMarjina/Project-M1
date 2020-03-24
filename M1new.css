@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.money{
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0 50px  
+}
+.coin{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    min-width: 600px;
+    max-width: 920px;
+    position: relative;
+    font-size: 16px;
+    line-height: 19px;
+}
+.coin-image{
+    width: 175px;
+}
+
+.big {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: #833AE0;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.heading{
+    font-weight: normal;
+    margin-left: 125px;
+}
+.percent {
+    position: absolute;
+    top: 25px;
+    left: 105px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #833AE0;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+.info {
+    margin: 0 7px;
+}
+
+
+
+.name {
+    color: #833AE0;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.image {
+    display: flex;
+}
+
+.price {
+    margin: 20px 0 0;
+}
+
+.now {
+    font-weight: bold;
+}
+.before {
+    color: silver;
+}
+
+.new-page {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.big {
+    width: 465px;
+}
+
+.coin2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    max-width: 1000px;
+    background-color: #DCDCDC;
+    padding: 10px 45px;
+}
+
+.heading2 {
+    text-align: left;
+}
+
+.artikul, .price2 {
+    color: grey;
+    font-size: 13px;
+}
+
+.artikul-span {
+    font-weight: bold;
+    color: black;
+}
+
+.price-span {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 2px solid silver;    
+    padding: 10px;
+}
+
+td:first-child {
+    border-right: 2px solid silver;
+}
+
+tr:nth-child(2n-1) {
+    background-color: white;
+}
+
+.home {
+    margin: 0 0 30px;
+    text-decoration: underline;
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
+
+.text {
+    margin: 0;
+}
+.text2 {
+    margin: 30px 0
+}
+
+
