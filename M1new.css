@@ -84,6 +84,8 @@ h1 {
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
+    max-width: 900px;
+    min-width: 600px;
 }
 
 .big {
